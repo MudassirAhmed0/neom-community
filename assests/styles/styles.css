@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "Brown";
+    src: url('../fonts/FontsFree-Net-Brown-Regular-Regular.ttf');
+    font-display: block;
+}
+@font-face {
+    font-family: "Brown";
+    src: url('../fonts/brownlight_regular.ttf');
+    font-weight: 300;
+    font-display: block;
+}
+
+body{
+    font-family: "Brown";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+.brown-regular{
+    font-family: "Brown Regular";
+}
+
+.bannerFullOverlay{
+    background: #131110 0% 0% no-repeat padding-box; 
+opacity: 0.5;
+}
+.swiper-pagination-bullet{
+    background: white!important;
+    opacity: 0.4!important;
+    
+}
+.swiper-pagination-bullet-active{
+    opacity: 0.8!important;
+}
+.myContainer{
+    width: 85.4167vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services:hover #service-dd{
+    opacity: 1 !important;
+    pointer-events: initial !important;
+    
+}
+ 
+header nav ul li > a,header nav ul li svg ,header nav ul li svg path,#search{
+transition:  all .5s;
+
+}
+#searchSvg:hover #search{
+    stroke: #B89535;
+}
+header nav ul li:hover svg{
+    transform: rotate(180deg);
+    top: -1.5px;
+}
+header nav ul li:hover > a,header nav ul li:hover svg path{
+    color: #B89535;
+    stroke: #B89535;
+}
+
+#life-dd.active{
+    opacity: 1 !important;
+    pointer-events: initial !important;
+
+
+}
+.date-time::after{
+    content: "";
+    width: 100%;
+    height: 100%;position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#000000  ;
+    opacity: 0.02;
+    z-index: 1;
+    border-radius: 15px;
+
+}
+
+#video::after{
+    content: "";
+    width: 100%;
+    height: 100%;position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#000000;
+    opacity: 0.4;
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.side{
+    border-radius: 18px 0px 18px 18px;
+    background-color: #F9F7F2;
+}
+
+.button:hover:not(.live){
+    color: #000000!important;
+    background-color: transparent !important;
+    
+  }
+  .button.live {
+    color: #000000!important;
+    background-color: transparent !important;
+
+  }  
+
+
+ 
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+
+.button:hover:not(.live){
+    background-color: #000;
+    color: #FFFFFF;
+
+}
+
+
+ 
+
+ 
+ 
+
+.content{
+    display: none !important;
+
+}
+
+
+.content.live{
+    display: flex !important;
+
+}
+
+
+.button.live{
+    background-color: #000;
+    color: #FFFFFF;
+
+
+
+    
+}
+#smImg{
+    position: relative;
+}
+#smImg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #000000;
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+
+
+
+.swmg-card,.swmg-cntent,.idore-cntentbig,.idore-cntent,
+.engagment-cntent,#open-values{
+    transition: all .5s;
+}
+ 
+.swmg-card .swmg-cardoverlay,.engagment-card .swmg-cardoverlay{
+    
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    transition: all .5s;
+
+    
+}
+.swmg-card:hover .swmg-cardoverlay,
+#indore:hover .swmg-cardoverlay,
+.engagment-card:hover .swmg-cardoverlay{
+    height: 100%;
+    top: 0;
+}
+.engagment-card:hover .engagment-cntent {
+    top: 5.20833333333vw;
+}
+.swmg-card:hover .swmg-cntent ,
+.swmg-card:hover #last{
+top: 5.78125vw !important;
+ 
+}
+#indore:hover .idore-cntentbig{
+    top: 5.78125vw !important;
+}
+#indore:hover .idore-cntent{
+    top: 7.31770833333vw;
+}
+
+#last{
+    top: 14.9479166667vw !important;
+}
+
+#unit-popup-dropdwn.active {
+    max-height: 14.5833333333vw;
+    padding-top: 1.5625vw;
+    padding-bottom: 1.5625vw;
+    pointer-events: initial;
+}
+#open-values.active{
+    transform: rotate(180deg);
+}
+
+.map-box{
+    box-shadow: 0px 0px 20px #00000036;
+}
+
+
+
+
+
+
+
+
+
+
+.newsOverlay{
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000CC 100%) 0% 0% no-repeat padding-box;
+border-radius: 0px 0px 15px 15px;
+opacity: 1;
+}
+
+.newsSwiper .swiper-button-next,.newsSwiper .swiper-button-prev{
+    width: 2.34375vw;
+    height: 2.34375vw;
+    background-color: rgba(0,0,0,0.4);
+    top: unset;
+    bottom: -4.42708333333vw;
+}
+.newsSwiper .swiper-button-next{
+    left: unset;
+    right: 0px;
+
+}
+.newsSwiper .swiper-button-prev{
+    left: unset;
+    right: 2.76875vw;
+}
+.newsSwiper .swiper-button-prev img{
+        transform: rotate(-180deg);
+}
+.newsSwiper .swiper-button-next::after,.newsSwiper .swiper-button-prev::after{
+   display: none;
+}
+.eventShadow{
+    box-shadow: 3px 4px 6px #E7E4E0;
+}
