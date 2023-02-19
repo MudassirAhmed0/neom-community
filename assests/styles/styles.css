@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: "Brown";
     src: url('../fonts/FontsFree-Net-Brown-Regular-Regular.ttf');
@@ -36,6 +41,11 @@ opacity: 0.5;
     margin-left: auto;
     margin-right: auto;
 }
+.set{
+    width: 92.70835vw !important;
+    margin-right: unset !important;
+}
+ 
 
 .services:hover #service-dd{
     opacity: 1 !important;
@@ -77,6 +87,19 @@ header nav ul li:hover > a,header nav ul li:hover svg path{
     border-radius: 15px;
 
 }
+.helpsupport::after{
+    content: "";
+    width: 100%;
+    height: 100%;position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#000000  ;
+    opacity: 0.02;
+    z-index: 1;
+    border-top-left-radius:15px ;
+}
+
+
 
 #video::after{
     content: "";
@@ -249,7 +272,7 @@ opacity: 1;
     height: 2.34375vw;
     background-color: rgba(0,0,0,0.4);
     top: unset;
-    bottom: -4.42708333333vw;
+    bottom: 5.62708333333vw;
 }
 .newsSwiper .swiper-button-next{
     left: unset;
@@ -268,4 +291,100 @@ opacity: 1;
 }
 .eventShadow{
     box-shadow: 3px 4px 6px #E7E4E0;
+}
+.dropdownShadow {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2) 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.error.active{
+    display: block;
+}
+
+/* HAMBURGER  */
+
+.container {
+    width: 10%;
+    height: 12vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu {
+    width: 100%;
+    margin: 8px;
+    background: transparent;
+    border-radius: 5px;
+  }
+  
+  .menu div {
+    position: relative;
+  
+  }
+  
+  
+  
+  .menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #d30d2b ;
+    margin: auto;
+    margin-bottom: 4px;
+    transition: all 400ms linear;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .li2ne {
+    opacity: 0;
+  
+  }
+  
+  
+  
+  
+  .l1ine {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 7.5px;
+    background: #FFFFFF !important;
+  
+  }
+  
+  
+  
+  .lin3e {
+    transform: rotate(45deg);
+    bottom: 6px;
+    position: relative;
+    background: #FFFFFF !important;
+  
+  }
+  
+
+@media (max-width:768px){
+    .myContainer{
+        margin-left: unset;
+    }
+    .set{
+        margin-right: unset !important  ;
+        width: 100% !important;
+
+    }
+   
 }

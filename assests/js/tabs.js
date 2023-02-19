@@ -9,7 +9,7 @@ const articles = document.querySelectorAll(".content")
 tabs.addEventListener("click", (e) => {
 
     const id = e.target.dataset.id
- 
+    console.log(id)
     if (id) {
        
 
@@ -27,6 +27,7 @@ tabs.addEventListener("click", (e) => {
 
         });
         const element = document.getElementById(id)
+        console.log(element)
         element.classList.add("live")
 
     }
